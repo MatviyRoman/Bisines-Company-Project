@@ -1,0 +1,224 @@
+/*@media (min-width: @screen-sm-min) {}*/
+
+/*@media screen and (max-width: 768px) {*/
+
+
+/* Пристрої середнього розміру (настільні монітори, 992px та ширші) */
+
+/* Невеликі пристрої (планшети, 768px та ширші) */
+@media (max-width: 768px) {
+	#logo {
+		position: relative;
+		color: #5a7799;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		margin-left: -10px;
+	}
+
+	#logo img {
+		margin: 0;
+	}
+
+	#logo h1 {
+		font-size: 30px;
+		width: 250px;
+	}
+
+	#logo .textLogo {
+	position: absolute;
+	top: -20px;
+	left: 95px;
+	}
+
+	#logo p {
+		position: absolute;
+		top: 70px;
+		left: 95px;
+		width: 250px;
+		color: #ffffff;
+		font-size: 13px;
+		top: 40px;
+		left: 90px;
+		}
+
+	.search {
+		position: absolute;
+		right: 50px;
+		top: 40px;
+		padding-left: 10px;
+		font-size: 15px;
+		text-align: right;
+	}
+
+	.search p {
+		width: 250px;
+		float: right;
+	}
+
+	.search input {
+		max-width: 100px;
+	    margin-right: 10px;
+	    margin-left: 10px;
+	}
+
+	.search button {
+		background: #2a5ba0;
+		border-color: #2a5bb0;
+		font: bold;
+		width: 40px;
+		height: 27px;
+		color: white;
+		padding: 0;
+	}
+
+	nav {
+		margin-right: 10px !important;
+	}
+
+	#information {
+		display: list-item;
+	}
+	
+	#information h2 {
+	font-size: 25px;
+	}
+
+	#information-left, 
+	#information-center,
+	#information-right {
+		margin-right: 10px;
+		width: 230px;
+		padding: 0;
+	}
+
+}
+
+
+@media (max-width: 425px) {
+	.search {
+		position: absolute;
+		right: 40px;
+		top: 100px;
+		padding-left: 10px;
+		font-size: 15px;
+		text-align: right;
+	}
+
+	nav {
+		float: none !important;
+		margin-right: 0 !important;
+		padding: 0 !important;
+	}
+
+	nav a {
+		display: inline;
+		background: #63839a;
+		color: white;
+		text-align: center;
+		padding-left: 0;
+		margin: 0;
+	}
+
+	nav a:hover {
+	color: #FFFFFF;
+	background: #5bc0de !important;
+	}
+
+	nav .active a {
+		display: none;
+		background: #5bc0de !important;
+	}
+
+	#content p {
+		width: 100%;
+	}
+
+	#information-left, 
+	#information-center,
+	#information-right {
+		font-size: 15px;
+		border-right: none;
+		text-align: left;
+		padding-right: 0;
+		padding: 0 auto;
+		margin-bottom: 10px;
+		width: 90%;
+		border-bottom: 1px solid #454648;
+	}
+
+	#information-right {
+		border-bottom: 0;
+		margin: 5px;
+	}
+
+	#information button {
+		margin-bottom: 10px;
+	}
+
+}
+
+@media (max-width: 375px) {
+	nav .navBar {
+		display: none;
+		width: 100px;
+		border: 2px white;
+		text-transform: capitalize;
+		font-weight: normal;
+	}
+
+	nav .navBar #services-tab,
+	nav .navBar #news-tab,
+	nav .navBar #contact-tab,
+	nav .navBar #blog-tab {
+		margin-top: 1px;
+	}
+
+
+	nav .navBar #about-tab {
+		margin-left: 2px;
+		margin-top: 1px;
+	}
+
+	nav #showNavBar {
+		display: block;
+		text-transform: capitalize;
+		height: 30px;
+		width: 100px;
+		margin-left: 2px;
+		background: #63839a;
+		color: white;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	nav .active a {
+		display: block;
+		background: #5bc0de !important;
+	}
+
+	#myModal .modal-body {
+		position: fixed;
+		border-radius: 20px !important;
+		background-color: #4A708B;
+		opacity: 0.9 !important;
+	}
+
+
+}
+
+/* Великі пристрої (великі настільні монітори, 1200px та ширші) */
+/*@media (min-width: @screen-lg-min) {}*/
+/*@media print {
+  .container {
+    width: auto;
+  }
+}*/
+
+/*
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@line-height-base   { 14px;} 
+*/

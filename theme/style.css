@@ -1,0 +1,531 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #272727;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+a {
+    color: #2a5ba0;
+}
+
+a:hover {
+    color: #103b58;
+    text-decoration: underline;
+}
+
+
+/* header */
+
+header {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+#logo {
+    position: relative;
+    color: #5a7799;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+
+/*#logo img {
+	margin-top: 20px;
+	margin-right: 30px;
+}*/
+
+#logo .textLogo {
+    position: absolute;
+    top: -20px;
+    left: 90px;
+    text-align: left;
+}
+
+#logo a,
+#logo a:hover {
+    text-decoration: none;
+}
+
+#logo img {
+    margin-right: 20px;
+}
+
+#logo p {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+h1,
+h2 {
+    color: white;
+    font: bold italic 35px Arial italic;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 10px !important;
+}
+
+h1 span:first-child,
+h2 span:first-child {
+    color: #657da3;
+}
+
+i.glyphicon glyphicon-search {
+    color: white;
+    font-size: 20px;
+}
+
+.search {
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.search input {
+    max-width: 160px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.search button {
+    background: #2a5ba0;
+    border-color: #2a5bb0;
+    font: bold;
+    width: 40px;
+    height: 27px;
+    color: white;
+    padding: 0;
+}
+
+
+/* content */
+
+nav {
+    text-transform: uppercase;
+    margin-right: 20px;
+    float: right;
+}
+
+nav a {
+    height: 30px;
+    width: 100px;
+    background: #63839a;
+    color: white;
+    text-align: center;
+}
+
+nav .active a {
+    background: #5bc0de !important;
+}
+
+nav #showNavBar {
+    display: none;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    background: #5bc0de !important;
+}
+
+#content {
+    display: block;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+#content .tab-content {
+    clear: both;
+}
+
+#content .tab-content p {
+    text-align: left;
+    margin: 5% 2% 5% 1%;
+    font-size: 14px;
+}
+
+#content p:first-line {
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+#content p {
+    width: 60%;
+}
+
+#content #about {
+    background: #4b6178 url("./img/about.png") no-repeat;
+    background-color: #6c7f9d;
+    background-size: 100% 100%;
+    padding: 2% 2% 2% 0%;
+    border-radius: 15px;
+    text-shadow: 10px 5px 5px black;
+}
+
+#content #services {
+    background: url(./img/services.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 2% 2% 0%;
+    color: #FF20FF;
+    border-radius: 15px;
+    text-shadow: 10px 5px 5px black;
+}
+
+#content #news {
+    background: url(./img/news.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 2% 2% 0%;
+    color: #FF20FF;
+    border-radius: 15px;
+    text-shadow: 10px 5px 5px black;
+}
+
+#content #contact {
+    background: url(./img/contact.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 2% 2% 0%;
+    border-radius: 15px;
+    text-shadow: 10px 5px 5px black;
+}
+
+#content #blog {
+    background: url(./img/blog.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 2% 2% 0%;
+    color: red;
+    border-radius: 15px;
+    text-shadow: 10px 5px 5px black;
+}
+
+
+/* information */
+
+#information {
+    display: block;
+    padding-left: 30px;
+}
+
+#information h1 {
+    margin: 20px;
+}
+
+#information img {
+    float: left;
+    margin-right: 10px;
+}
+
+#information p {
+    color: white;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    max-width: 250px;
+}
+
+#information ul {
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+
+#information li {
+    color: gray;
+    font-size: 12px;
+}
+
+#information hr {
+    max-width: 200px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-top: 0px;
+}
+
+#information button {
+    font-size: 13px;
+    text-align: center;
+    background: black;
+    color: #337ab7;
+    width: 80px;
+    height: 25px;
+    border-radius: 8px;
+    border-color: white;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px white;
+}
+
+#information button:hover {
+    background: #27408B;
+    border-radius: 8px;
+    padding-top: 5px;
+    text-align: center;
+    color: #FFA500;
+    width: 90px;
+    height: 35px;
+}
+
+#information-left,
+#information-center,
+#information-right {
+    border-right: 1px solid #454648;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#information-right {
+    border-right: none;
+}
+
+#information-left ul {
+    color: white;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+/* myModal */
+
+#myModal {
+    height: 400px;
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+#myModal .modal-content {
+    border-radius: 30px !important;
+    background-color: #4A708B;
+    opacity: 0.8 !important;
+}
+
+#myModal .modal-body {
+    text-align: center;
+    color: white;
+    background-color: #4A708B;
+    border-radius: 30px !important;
+}
+
+#myModal .modal-body img {
+    margin: 0 auto;
+}
+
+#myModal .btn {
+    background: #2e6da4 !important;
+    color: white;
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+
+/* footer */
+
+#footer {
+    font-size: 13px;
+}
+
+#footer-line {
+    margin-top: 20px;
+    height: 50px;
+    background: #4b6178 url("./img/img2.jpg") no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+}
+
+#rss {
+    width: 50%;
+    height: 80px;
+    padding: 0px;
+    font-size: 13px;
+    margin-top: 40px;
+    padding-left: 5%;
+    text-align: left;
+    color: white;
+    display: inline;
+}
+
+#rss img {
+    margin-left: 10%;
+    text-align: left;
+    padding-top: 13px;
+    padding-right: 15px;
+    float: left;
+}
+
+#copyright {
+    width: 50%;
+    height: 80px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+#copyright .btn-primary {}
+
+#copyright p {
+    color: white;
+    font-size: 13px;
+}
+
+
+/* accountModal */
+
+#accountModalBtn {
+    float: left;
+}
+
+#accountModal {
+    text-align: left;
+    color: black;
+}
+
+#accountModal .tab-content {
+    margin: 0px !important;
+    display: block;
+    height: 200px;
+}
+
+#accountModal #home {
+    position: relative;
+    height: 150px;
+    background: url(./img/home.png) no-repeat;
+    background-size: 30%;
+}
+
+#accountModal #home p {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+
+#accountModal #home ul {
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    color: white;
+}
+
+#accountModal #profile {
+    /*background: url(./img/profile.png) no-repeat;*/
+    position: relative;
+    color: white !important;
+    background-color: black;
+}
+
+#profile ul {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    padding-top: -300px !important;
+    padding-left: 200px !important;
+    color: white;
+}
+
+#accountModal #message {
+    height: 200px;
+    background-color: #2F4F4F;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#accountModal #message h2 {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#accountModal #message ol {
+    padding-left: 25px;
+    color: white;
+}
+
+
+/*VyacheslavModal*/
+
+.testModal {}
+
+.testModal #testModalBtn {}
+
+.testModal #myModalTest {
+    display: none;
+    background-color: red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+
+/*MyTestModal*/
+
+.modalBtn {
+    margin-left: 60px;
+}
+
+.modalBtn .windowModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 300%;
+    padding: 20px;
+}
+
+.modalBtn .windowModal .window {
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.modalBtn .windowModal .window {
+    background: #4b6178 url("./img/about.png") no-repeat;
+    background-color: #6c7f9d;
+    background-size: 100% 100%;
+    padding: 2% 2% 2% 0%;
+    border-radius: 15px;
+}
+
+.modalBtn .windowModal .window .content {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.modalBtn .windowModal .window #btnModalClose {
+    text-align: right;
+}
